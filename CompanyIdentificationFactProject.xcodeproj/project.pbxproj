@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A7A0B80E2CE3051B00F21B1C /* SEC-API-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7A0B80D2CE3051B00F21B1C /* SEC-API-Info.plist */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A7A0B7DF2CE3048D00F21B1C /* CompanyIdentificationFactProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompanyIdentificationFactProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A0B80D2CE3051B00F21B1C /* SEC-API-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SEC-API-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		A7A0B7D62CE3048D00F21B1C = {
 			isa = PBXGroup;
 			children = (
+				A7A0B80D2CE3051B00F21B1C /* SEC-API-Info.plist */,
 				A7A0B7E12CE3048D00F21B1C /* CompanyIdentificationFactProject */,
 				A7A0B7E02CE3048D00F21B1C /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7A0B80E2CE3051B00F21B1C /* SEC-API-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
